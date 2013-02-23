@@ -1,0 +1,107 @@
+body, ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+header li, nav li, .promo-left, .promo-center, .promo-right{
+	display: inline-block;;
+}
+
+header, nav, article, footer {
+	margin: 0 20px 0 10px;
+	padding: 0 20px;
+}
+
+nav {
+	margin-top: 20px;
+	background: url('../images/nav_bg.png');
+	margin-left: 10px;
+	height: 55px;
+}
+
+nav li {
+	margin: 10px 15px;
+}
+
+.content {
+	width: 960px;
+	margin: 0 auto;
+	background: url('../images/content_bg.png') -73 0;
+	padding: 0 30px;
+}
+
+.logos {
+	height: 100px;
+}
+
+.logos li {
+	margin-top: 25px;
+}
+
+.logo-left img{
+	margin-right: 50px;
+}
+
+.logo-left span {
+	position: relative;
+	top: -40px;
+}
+
+.logo-right {
+	float: right;
+}
+
+.logo-right img {
+	margin-top: 10px;
+}
+
+article h2 {
+	width: 45%;
+	margin-left: 20px;
+	margin-top: 0;
+}
+
+.promo {
+	font-size: 12px;
+	margin-left: -20px;
+	margin-right: -20px;
+	background: url('../images/promo_bg.png') -14 0;
+}
+
+.promo-left, .promo-center, .promo-right {
+	vertical-align: text-top;
+	margin-top: 20px;
+}
+
+.promo-left {
+	background: url('../images/promo_section_bg.png') 16 0;
+}
+
+.promo-center {
+	background: url('../images/promo_section_bg.png') -16 0;
+}
+
+.promo-left {
+	width: 325px;
+	margin-right: 40px;
+	padding-left: 30px;
+}
+
+.promo-center {
+	width: 225px;
+	margin-right: 30px;
+}
+
+.promo-right {
+	width: 200px;
+	margin-left: 30px;
+}
+
+.promo-left-section {
+	width: 155px;
+	display: inline-block;
+}

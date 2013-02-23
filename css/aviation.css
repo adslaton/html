@@ -1,0 +1,13 @@
+section {
+	background: url('../images/aviation_bg.png');
+	height: 100%
+}
+
+article {
+	background: url('../images/aviation_homepage_bg.png');
+}
+
+.description {
+	margin-left: 20px;
+	height: 280px;
+}
