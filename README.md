@@ -10,4 +10,16 @@
 http://try.github.com/levels/1/challenges/1
 
 ## Where to develop?
-development is done on the test branch
+Create your development off the dev branch with the following commands:
+
+- [git checkout dev]
+- [git checkout -b yourBranchName]
+
+## Where to commit your changes?
+Commit your changes in [yourBranchName]
+
+## Pull request for code insight
+Create a pull request so that your code can be reviewed
+
+## Merge approved code
+Merge code into dev branch
