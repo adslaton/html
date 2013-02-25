@@ -4,10 +4,10 @@ section {
 }
 
 article {
-	background: url('../images/aviation_homepage_bg.png');
+	background: url('../images/aviation_homepage_bg.png') 0px -50px;
 }
 
 .description {
 	margin-left: 20px;
-	height: 280px;
+	height: 150px;
 }
