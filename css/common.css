@@ -3,6 +3,10 @@ body, ul {
 	padding: 0;
 }
 
+body {
+	font-family: Arial;
+}
+
 ul {
 	list-style: none;
 }
@@ -23,8 +27,16 @@ nav {
 	height: 55px;
 }
 
+nav ul {
+	margin-left: 50px;
+	height: 50px;
+	color: #fff;
+}
+
 nav li {
-	margin: 10px 15px;
+	margin: 20px 15px 10px;
+	vertical-align: top;
+	text-shadow: 1px 1px #000;
 }
 
 .content {
@@ -48,9 +60,10 @@ nav li {
 
 .logo-left span {
 	position: relative;
-	top: -40px;
+	top: -35px;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 22px;
+	font-family: Times New Roman;
 	color: #999;
 }
 
@@ -62,13 +75,19 @@ nav li {
 	margin-top: 10px;
 }
 
+.page-name {
+	margin-top: 12px;
+	font-weight: bold;
+	font-size: 26px;
+	color: #999;
+}
+
 article h2 {
 	width: 45%;
 	margin-left: 20px;
 	margin-top: 0;
 	color: #fff;
 	font-weight: normal;
-	font-family: Arial;
 	text-shadow: 2px 2px black;
 	padding-top: 50px;
 }
