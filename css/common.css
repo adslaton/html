@@ -113,6 +113,11 @@ article h2 span {
 	min-height: 235px
 }
 
+.promo-center, .promo-right {
+	border-left: 2px solid #003355;
+	padding-left: 10px
+}
+
 .promo-left {
 	background: url('../images/promo_section_bg.png') 125 0;
 }
