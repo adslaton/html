@@ -102,7 +102,7 @@ article h2 span {
 }
 
 .promo {
-	font-size: 12px;
+	font-size: 11px;
 	margin-left: -20px;
 	margin-right: -20px;
 	background: url('../images/promo_bg.png') -14 0;
@@ -110,21 +110,21 @@ article h2 span {
 
 .promo-left, .promo-center, .promo-right {
 	vertical-align: text-top;
-	margin-top: 20px;
+	min-height: 235px
 }
 
 .promo-left {
-	background: url('../images/promo_section_bg.png') 16 0;
+	background: url('../images/promo_section_bg.png') 125 0;
 }
 
 .promo-center {
 	background: url('../images/promo_section_bg.png') -16 0;
+	margin: 20px 40px 0 0;
 }
 
 .promo-left {
 	width: 325px;
-	margin-right: 40px;
-	padding-left: 30px;
+	margin: 20px 40px 0px;
 }
 
 .promo-center {
@@ -134,10 +134,12 @@ article h2 span {
 
 .promo-right {
 	width: 200px;
-	margin-left: 30px;
+	margin: 20px 0 0 30px;
 }
 
 .promo-left-section {
-	width: 155px;
+	width: 150px;
 	display: inline-block;
+	vertical-align: top;
+	margin: 10px 0 10px 10px;
 }
