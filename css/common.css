@@ -7,6 +7,10 @@ body {
 	font-family: Arial;
 }
 
+a {
+	text-decoration: none;
+}
+
 ul {
 	list-style: none;
 }
@@ -86,10 +90,15 @@ article h2 {
 	width: 45%;
 	margin-left: 20px;
 	margin-top: 0;
+	margin-bottom: 50px;
 	color: #fff;
 	font-weight: normal;
 	text-shadow: 2px 2px black;
 	padding-top: 50px;
+}
+
+article h2 span {
+	font-weight: bold;
 }
 
 .promo {
