@@ -1,0 +1,52 @@
+section {
+  background: url('../images/aviation_bg.png');
+	height: 800px; 
+	
+    
+}
+
+article {
+	background: url('../images/aviation_bg.png');
+	
+	margin-left: 10px;
+	margin-top: 550px;
+		
+}
+
+
+.description {
+	margin-left: 20px;
+	height: 270px;
+	background-position:center bottom;
+	
+}
+
+.TextFont1	{
+
+font-size:1em;
+color:#FFFFFF;
+}
+
+.TextFont2	{
+color:#000066; 
+}
+
+.navmenue {
+color:#FFFFFF;
+position:relative;
+width:615px;
+float:right;
+}
+
+.TextFont3{
+font-family:Tahoma, Geneva, sans-serif;
+}
+
+.HeaderTextFont{
+font-family:Tahoma, Geneva, sans-serif;
+font-size:150%;
+color:#333333
+
+}
+
+
