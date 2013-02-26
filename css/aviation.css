@@ -1,6 +1,9 @@
 section {
 	background: url('../images/aviation_bg.png');
-	height: 100%
+	 
+	background-size:100% 95%;
+	
+    
 }
 
 article {
