@@ -10,12 +10,24 @@ article {
 article h2 {
 	color: #192733;
 	text-shadow: none;
+	margin-left: 0px;
+	padding-top: 40px;
+}
+
+.description, .promo {
+	display: inline-block;
 }
 
 .description {
 	margin-left: 20px;
 	background-position:center bottom;
 	width: 340px;
+	margin-right: 170px;
+	vertical-align: top;
+}
+
+.promo img {
+	height: 550px;
 }
 
 .description ul {
