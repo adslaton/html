@@ -5,10 +5,12 @@ body, ul {
 
 body {
 	font-family: Arial;
+	background-color: #192733;
 }
 
 a {
 	text-decoration: none;
+	color: inherit;
 }
 
 ul {
@@ -38,7 +40,7 @@ nav ul {
 }
 
 nav li {
-	margin: 20px 15px 10px;
+	margin: 20px 10px 10px;
 	vertical-align: top;
 	text-shadow: 1px 1px #000;
 }
@@ -46,7 +48,7 @@ nav li {
 .content {
 	width: 960px;
 	margin: 0 auto;
-	background: url('../images/content_bg.png') -73 0;
+	background: url('../images/content_bg.png') -73px 0px;
 	padding: 0 30px;
 }
 
@@ -83,6 +85,7 @@ nav li {
 	margin-top: 12px;
 	font-weight: bold;
 	font-size: 26px;
+	letter-spacing: 6px;
 	color: #999;
 }
 
@@ -103,18 +106,20 @@ article h2 span {
 
 .promo {
 	font-size: 10px;
+	margin-top: 0px;
 	margin-left: -20px;
 	margin-right: -20px;
-	background: url('../images/promo_bg.png') -14 0;
-	padding-bottom: 10px;
+	background: url('../images/promo_bg.png') -14px 0px;
+	padding-bottom: 0px;
 }
 
 .promo h3 {
 	color: #999;
+	margin-top: 0px;
 }
 
 .promo a {
-	color: #003355;
+	color: #192733;
 }
 
 .promo-left, .promo-center, .promo-right {
@@ -123,7 +128,7 @@ article h2 span {
 }
 
 .promo-center, .promo-right {
-	border-left: 2px solid #003355;
+	border-left: 2px solid #192733;
 	padding-left: 10px
 }
 
@@ -132,7 +137,7 @@ article h2 span {
 }
 
 .promo-left {
-	background: url('../images/promo_section_bg.png') 125 0;
+	background: url('../images/promo_section_bg.png') 125px 0px;
 }
 
 .promo-left ul {
@@ -141,7 +146,7 @@ article h2 span {
 }
 
 .promo-center {
-	background: url('../images/promo_section_bg.png') -16 0;
+	background: url('../images/promo_section_bg.png') -16px 0px;
 	margin: 20px 40px 0 0;
 }
 

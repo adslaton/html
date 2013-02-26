@@ -1,52 +1,36 @@
 section {
-  background: url('../images/aviation_bg.png');
-	height: 800px; 
-	
-    
+ 	background: url('../images/aviation_bg.png'); 
 }
 
 article {
-	background: url('../images/aviation_bg.png');
-	
-	margin-left: 10px;
-	margin-top: 550px;
-		
+	margin-left: 10px;	
+	height: 570px;
 }
 
+article h2 {
+	color: #192733;
+	text-shadow: none;
+	margin-left: 0px;
+	padding-top: 40px;
+}
+
+.description, .promo {
+	display: inline-block;
+}
 
 .description {
 	margin-left: 20px;
-	height: 270px;
 	background-position:center bottom;
-	
+	width: 340px;
+	margin-right: 170px;
+	vertical-align: top;
 }
 
-.TextFont1	{
-
-font-size:1em;
-color:#FFFFFF;
+.promo img {
+	height: 550px;
 }
 
-.TextFont2	{
-color:#000066; 
+.description ul {
+	margin-left: 20px;
 }
-
-.navmenue {
-color:#FFFFFF;
-position:relative;
-width:615px;
-float:right;
-}
-
-.TextFont3{
-font-family:Tahoma, Geneva, sans-serif;
-}
-
-.HeaderTextFont{
-font-family:Tahoma, Geneva, sans-serif;
-font-size:150%;
-color:#333333
-
-}
-
 
