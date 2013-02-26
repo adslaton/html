@@ -1,13 +1,29 @@
 section {
 	background: url('../images/aviation_bg.png');
-	height: 100%
 }
 
 article {
-	background: url('../images/aviation_homepage_bg.png');
+	background: url('../images/aviation_homepage_bg.png') 0px -60px;
 }
 
 .description {
+	font-size: 14px;
 	margin-left: 20px;
-	height: 280px;
+	height: 150px;
+	color: #003355;
+}
+
+.callout {
+	margin-top: 35px;
+	font-weight: bold;
+	color: #990020;
+}
+
+.highlight {
+	font-style: italic;
+	margin-right: 30px;
+}
+
+footer {
+	margin-top: 30px;
 }

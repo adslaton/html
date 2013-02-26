@@ -3,6 +3,16 @@ body, ul {
 	padding: 0;
 }
 
+body {
+	font-family: Arial;
+	background-color: #192733;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 ul {
 	list-style: none;
 }
@@ -23,14 +33,22 @@ nav {
 	height: 55px;
 }
 
+nav ul {
+	margin-left: 50px;
+	height: 50px;
+	color: #fff;
+}
+
 nav li {
-	margin: 10px 15px;
+	margin: 20px 10px 10px;
+	vertical-align: top;
+	text-shadow: 1px 1px #000;
 }
 
 .content {
 	width: 960px;
 	margin: 0 auto;
-	background: url('../images/content_bg.png') -73 0;
+	background: url('../images/content_bg.png') -73px 0px;
 	padding: 0 30px;
 }
 
@@ -43,12 +61,16 @@ nav li {
 }
 
 .logo-left img{
-	margin-right: 50px;
+	margin-right: 10px;
 }
 
 .logo-left span {
 	position: relative;
-	top: -40px;
+	top: -35px;
+	font-style: italic;
+	font-size: 22px;
+	font-family: Times New Roman;
+	color: #999;
 }
 
 .logo-right {
@@ -59,36 +81,87 @@ nav li {
 	margin-top: 10px;
 }
 
+.page-name {
+	margin-top: 12px;
+	font-weight: bold;
+	font-size: 26px;
+	letter-spacing: 6px;
+	color: #999;
+}
+
 article h2 {
 	width: 45%;
 	margin-left: 20px;
 	margin-top: 0;
+	margin-bottom: 50px;
+	color: #fff;
+	font-weight: normal;
+	text-shadow: 2px 2px black;
+	padding-top: 50px;
+}
+
+article h2 span {
+	font-weight: bold;
 }
 
 .promo {
-	font-size: 12px;
+	font-size: 10px;
+	margin-top: 0px;
 	margin-left: -20px;
 	margin-right: -20px;
-	background: url('../images/promo_bg.png') -14 0;
+	background: url('../images/promo_bg.png') -14px 0px;
+	padding-bottom: 0px;
+}
+
+.promo h3 {
+	color: #999;
+	margin-top: 0px;
+}
+
+.promo a {
+	color: #192733;
 }
 
 .promo-left, .promo-center, .promo-right {
 	vertical-align: text-top;
-	margin-top: 20px;
+	min-height: 235px
+}
+
+.promo-center, .promo-right {
+	border-left: 2px solid #192733;
+	padding-left: 10px
+}
+
+.promo-left ul, .promo-right ul {
+	margin-bottom: 10px;
 }
 
 .promo-left {
-	background: url('../images/promo_section_bg.png') 16 0;
+	background: url('../images/promo_section_bg.png') 125px 0px;
+}
+
+.promo-left ul {
+	list-style: initial;
+	margin-left: 15px;
 }
 
 .promo-center {
-	background: url('../images/promo_section_bg.png') -16 0;
+	background: url('../images/promo_section_bg.png') -16px 0px;
+	margin: 20px 40px 0 0;
+}
+
+.promo-center .text {
+	margin-bottom: 10px;
+}
+
+.promo-center h3 {
+	margin-top: 25px;
+	font-size: 14px;
 }
 
 .promo-left {
 	width: 325px;
-	margin-right: 40px;
-	padding-left: 30px;
+	margin: 20px 40px 0px;
 }
 
 .promo-center {
@@ -98,10 +171,23 @@ article h2 {
 
 .promo-right {
 	width: 200px;
-	margin-left: 30px;
+	margin: 20px 0 0 30px;
+}
+
+.promo-right ul li span {
+	color: #990020;
 }
 
 .promo-left-section {
-	width: 155px;
+	width: 150px;
 	display: inline-block;
+	vertical-align: top;
+	margin: 10px 0 10px 10px;
+}
+
+footer {
+	margin-left: 40px;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 20px;
 }
