@@ -41,6 +41,7 @@ article .headline-2 {
 .description-column {
 	width: 49%;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .page-description {
@@ -59,4 +60,9 @@ article .headline-2 {
 .page-description span {
 	font-size: 16px;
 	font-weight: bold;
+}
+
+.globe-bg {
+	margin-left: -20px;
+	margin-top: 60px;
 }
