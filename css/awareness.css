@@ -1,0 +1,11 @@
+body {
+	background-color: #a9a9a9;
+}
+
+section {
+ 	background: url('../images/awareness_bg.png'); 
+}
+
+.awareness .page-name {
+	margin-right: 35px;
+}
