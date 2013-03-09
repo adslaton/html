@@ -6,6 +6,57 @@ section {
  	background: url('../images/awareness_bg.png'); 
 }
 
-.awareness .page-name {
+nav {
+	background: url('../images/nav2_bg.png');
+}
+
+.page-name {
 	margin-right: 35px;
+	color: #003366;
+}
+
+nav, h2, .description {
+	position: relative;
+	z-index: 100;
+}
+
+article {
+	min-height: 575px;
+}
+
+article .headline-2 {
+	width: 96%;
+	text-align: right;
+	line-height: 30px;
+	padding-top: 60px;
+}
+
+.content-bg {
+	position: absolute;
+	z-index: 0;
+	margin-left: -20px;
+	margin-top: -55px;
+}
+
+.description-column {
+	width: 49%;
+	display: inline-block;
+}
+
+.page-description {
+	width: 340px;
+	text-align: justify;
+	float: right;
+	color: #192733;
+}
+
+.page-description p {
+	font-size: 17px;
+	margin-top: 30px;
+	line-height: 26px;
+}
+
+.page-description span {
+	font-size: 16px;
+	font-weight: bold;
 }

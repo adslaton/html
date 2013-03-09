@@ -83,15 +83,15 @@ nav li {
 }
 
 .page-name {
-	margin-top: 12px;
+	margin-top: 10px;
 	font-weight: bold;
-	font-size: 26px;
-	letter-spacing: 6px;
+	font-size: 32px;
+	letter-spacing: 2px;
 	color: #999;
 }
 
-article h2 {
-	width: 45%;
+article .headline-2 {
+	width: 49%;
 	margin-left: 20px;
 	margin-top: 0;
 	margin-bottom: 50px;
@@ -99,10 +99,12 @@ article h2 {
 	font-weight: normal;
 	text-shadow: 2px 2px black;
 	padding-top: 50px;
+	font-size: 26px;
 }
 
-article h2 span {
+article .headline-2 span {
 	font-weight: bold;
+	letter-spacing: 4px;
 }
 
 .promo {
@@ -114,9 +116,10 @@ article h2 span {
 	padding-bottom: 0px;
 }
 
-.promo h3 {
+.promo .headline-3 {
 	color: #999;
 	margin-top: 0px;
+	font-size: 12px;
 }
 
 .promo a {
