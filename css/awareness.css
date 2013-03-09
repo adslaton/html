@@ -3,7 +3,7 @@ body {
 }
 
 section {
- 	background: url('../images/awareness_bg.png'); 
+ 	background: url('../images/awareness_bg.png') no-repeat; 
 }
 
 nav {
@@ -21,7 +21,7 @@ nav, h2, .description {
 }
 
 article {
-	min-height: 575px;
+	min-height: 590px;
 }
 
 article .headline-2 {
@@ -86,4 +86,25 @@ article .headline-2 {
 
 .callout-content ul {
 	font-size: 11px;
+}
+
+footer {
+	background: url('../images/base_bg.png') -113px 100px;
+	margin: -1px 0 0 10px;
+	width: 930px;
+	padding: 0;
+	color: #003366;
+	font-size: 10px;
+}
+
+footer div {
+	padding: 20px 30px 15px;
+}
+
+footer div p {
+	display: inline-block;
+}
+
+footer div p.left {
+	margin-right: 60px;
 }
