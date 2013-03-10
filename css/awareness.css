@@ -1,9 +1,9 @@
 body {
-	background-color: #a9a9a9;
+	background-color: rgba(169, 169, 169, 0.9);
 }
 
 section {
- 	background: url('../images/awareness_bg.png') no-repeat; 
+ 	background: url('../images/awareness_bg.png'); 
 }
 
 nav {
@@ -98,7 +98,7 @@ footer {
 }
 
 footer div {
-	padding: 20px 30px 15px;
+	padding: 19px 30px 14px;
 }
 
 footer div p {
