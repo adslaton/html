@@ -43,7 +43,7 @@ nav ul {
 nav li {
 	margin: 20px 15px 10px;
 	vertical-align: top;
-	text-shadow: 1px 1px #000;
+	text-shadow: 0.1em 0.1em 0.1em black;
 }
 
 .content {
@@ -97,7 +97,7 @@ article .headline-2 {
 	margin-bottom: 50px;
 	color: #fff;
 	font-weight: normal;
-	text-shadow: 2px 2px black;
+	text-shadow: 0.1em 0.1em 0.2em black;
 	padding-top: 50px;
 	font-size: 26px;
 }
@@ -187,6 +187,10 @@ article .headline-2 span {
 	display: inline-block;
 	vertical-align: top;
 	margin: 10px 0 10px 10px;
+}
+
+.shadow {
+	text-shadow: 0.1em 0.1em 0.5em white;
 }
 
 footer {

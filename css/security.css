@@ -5,11 +5,20 @@ body {
 }
 
 section {
-	background: url('../images/aviation_bg.png');
+	background: url('../images/security_bg.png');
 }
 
 article {
-	background: url('../images/aviation_homepage_bg.png') 0px -60px;
+	background: url('../images/security_homepage_bg.png') -114px -15px;
+}
+
+nav {
+	background: url('../images/security_nav_bg.png');
+	height: 54px;
+}
+
+.page-name {
+	color: #84152d;
 }
 
 .description {
