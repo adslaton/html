@@ -1,0 +1,104 @@
+body {
+	background-color: rgba(169, 169, 169, 0.9);
+}
+
+section {
+ 	background: url('../images/awareness_bg.png'); 
+}
+
+nav {
+	background: url('../images/nav2_bg.png');
+}
+
+.page-name {
+	margin-right: 35px;
+	color: #003366;
+}
+
+nav, h2, .description {
+	position: relative;
+	z-index: 100;
+}
+
+article {
+	min-height: 565px;
+}
+
+article .headline-2 {
+	width: 96%;
+	text-align: right;
+	line-height: 30px;
+	padding-top: 60px;
+}
+
+.content-bg {
+	position: absolute;
+	z-index: 0;
+	margin-left: -20px;
+	margin-top: -55px;
+}
+
+.description-column {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.page-description {
+	width: 340px;
+	text-align: justify;
+	float: right;
+	color: #003366;
+	position: relative;
+	margin-top: 50px;
+}
+
+.page-description p {
+	font-size: 12px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 18px;
+}
+
+.page-description span {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.globe-bg {
+	right: -20px;
+	margin-top: 60px;
+	position: absolute;
+}
+
+.callout {
+	margin-top: 50px;
+	position: relative;
+	z-index: 100;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #003366;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+footer {
+	background: url('../images/base_bg.png') -113px 100px;
+	margin: -1px 0 0 10px;
+	width: 930px;
+	padding: 0;
+	color: #003366;
+	font-size: 10px;
+}
+
+footer div {
+	padding: 19px 30px 14px;
+}
+
+footer div p {
+	display: inline-block;
+}
+
+footer div p.left {
+	margin-right: 60px;
+}
