@@ -189,6 +189,10 @@ article .headline-2 span {
 	margin: 10px 0 10px 10px;
 }
 
+.shadow {
+	text-shadow: 0.1em 0.1em 0.5em white;
+}
+
 footer {
 	margin-left: 40px;
 	font-size: 12px;
