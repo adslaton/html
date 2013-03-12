@@ -118,7 +118,17 @@ nav {
 .promo-right .promo-content p {
 	text-align: justify;
 	width: 170px;
-	height: 140px;
+	height: 135px;
+}
+
+.promo-right .promo-content p.byline {
+	width: 200px;
+	margin: 0;
+	height: 10px;
+}
+
+.promo a {
+	color: white;
 }
 
 .callout {
