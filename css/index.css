@@ -1,0 +1,9 @@
+@import url("common.css");
+
+nav {
+	background: none;
+}
+
+nav ul {
+	text-align: right;
+}
