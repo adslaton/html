@@ -1,0 +1,13 @@
+@import url("/html/css/common.css");
+@import url("index.css");
+
+.security_image_promo {
+	font-size: 10px;
+	margin-top: -167px;
+	margin-left: 527px;
+	margin-right: -20px;
+}
+
+.aviation article {
+	min-height: 550px;
+}
