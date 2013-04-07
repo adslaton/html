@@ -57,8 +57,10 @@ nav {
 .description {
 	font-size: 14px;
 	margin-left: 20px;
-	height: 150px;
+	min-height: 150px;
 	color: #003355;
+	max-height: 550px;
+	overflow-x: scroll;
 }
 
 .promo {
