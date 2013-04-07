@@ -59,8 +59,9 @@ nav {
 	margin-left: 20px;
 	min-height: 150px;
 	color: #003355;
-	max-height: 550px;
+	max-height: 565px;
 	overflow-x: scroll;
+	margin-bottom: 10px;
 }
 
 .promo {
