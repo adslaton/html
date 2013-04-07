@@ -1,0 +1,84 @@
+@import url("common.css");
+
+body {
+	background: url('../images/landing_bg.png')
+}
+
+article {
+	padding: 0;
+	margin-left: 9px;
+	background: url('../images/landing_content_bg.png') no-repeat;
+	min-height: 700px;
+}
+
+article .headline-2 {
+	width: 79%;
+	font-size: 26px;
+	margin: 0 20px 80px;
+	padding-top: 20px;
+}
+
+article .promo-caption {
+	background: url('../images/caption_bg.png') no-repeat;
+	padding: 2px 15px;
+	color: white;
+	font-size: 18px;
+	margin: 0 10px;
+}
+
+article .promo-content {
+	margin: 5px 11px;
+	color: white;
+}
+
+article .promo-content li {
+	display: inline-block;
+	width: 214px;
+	background: url('../images/landing_promo_bg.png');
+	min-height: 250px;
+	margin-right: 8px;
+	vertical-align: top;
+}
+
+article .promo-content h3 {
+	margin: 5px 0;
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+article .promo-text {
+	display: inline-block;
+	width: 116px;
+	font-size: 12px;
+	margin: 10px 5px;
+	vertical-align: top;
+}
+
+article .promo-text span {
+	font-weight: bold;
+}
+
+article .promo-content a {
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+article .promo-content img {
+	margin: 10px 0 0 10px;
+	width: 60px;
+	height: 130px;
+}
+
+nav {
+	background: none;
+}
+
+nav ul {
+	text-align: right;
+}
+
+footer {
+	margin-top: 0;
+	height: 0;
+}
