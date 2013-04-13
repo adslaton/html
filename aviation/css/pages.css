@@ -29,8 +29,8 @@ article h2 {
 .description {
 	margin-left: 20px;
 	background-position:center bottom;
-	width: 340px;
-	margin-right: 170px;
+	width: 450px;
+	margin-right: 50px;
 	vertical-align: top;
 }
 
@@ -42,3 +42,11 @@ article h2 {
 	margin-left: 20px;
 }
 
+.form-holder {
+	font-size: 12px;
+}
+
+.form-section {
+	width: 45%;
+	display: inline-block;
+}
