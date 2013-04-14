@@ -1,4 +1,4 @@
-@import url("common.css");
+@import url("/html/css/common.css");
 
 body {
 	background-color: rgba(169, 169, 169, 0.9);
@@ -23,7 +23,7 @@ nav, h2, .description {
 }
 
 article {
-	min-height: 565px;
+	min-height: 590px;
 }
 
 article .headline-2 {
@@ -50,16 +50,13 @@ article .headline-2 {
 	width: 340px;
 	text-align: justify;
 	float: right;
-	color: #003366;
-	position: relative;
-	margin-top: 50px;
+	color: #192733;
 }
 
 .page-description p {
-	font-size: 12px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	line-height: 18px;
+	font-size: 17px;
+	margin-top: 30px;
+	line-height: 26px;
 }
 
 .page-description span {
@@ -68,13 +65,13 @@ article .headline-2 {
 }
 
 .globe-bg {
-	right: -20px;
+	margin-left: -20px;
 	margin-top: 60px;
 	position: absolute;
 }
 
 .callout {
-	margin-top: 50px;
+	margin-top: 190px;
 	position: relative;
 	z-index: 100;
 	margin-left: 10px;
@@ -82,11 +79,20 @@ article .headline-2 {
 	color: #003366;
 	font-weight: bold;
 	line-height: 20px;
+	width: 185px;
+}
+
+.callout-content {
+	margin-bottom: 10px;
+}
+
+.callout-content ul {
+	font-size: 11px;
 }
 
 footer {
 	background: url('../images/base_bg.png') -113px 100px;
-	margin: -1px 0 0 10px;
+	margin: -3px 0 0 10px;
 	width: 930px;
 	padding: 0;
 	color: #003366;
