@@ -35,10 +35,29 @@ article h2 {
 
 .description p {
 	font-size: 12px;
+	margin: 5px 0;
 }
 
 .promo img {
 	height: 550px;
+}
+
+.promo.listing {
+	margin-top: 20px;
+	background: none;
+	color: #003355;
+}
+
+.promo.listing h3 {
+	font-size: 16px;
+}
+
+.promo.listing p {
+	font-size: 12px;
+}
+
+.promo.listing a {
+	color: inherit;
 }
 
 .description ul {
