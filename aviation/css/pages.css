@@ -33,6 +33,10 @@ article h2 {
 	vertical-align: top;
 }
 
+.description p {
+	font-size: 12px;
+}
+
 .promo img {
 	height: 550px;
 }
