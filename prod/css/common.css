@@ -1,0 +1,230 @@
+body, ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style: none;
+}
+
+header li, nav li, .promo-left, .promo-center, .promo-right{
+	display: inline-block;;
+}
+
+header, nav, article, footer {
+	margin: 0 20px 0 10px;
+	padding: 0 20px;
+}
+
+nav {
+	margin-top: 20px;
+	background: url('../images/nav_bg.png');
+	margin-left: 10px;
+	height: 55px;
+	padding: 0;
+}
+
+nav ul {
+	margin: 0 auto;
+	width: 890px;
+	height: 50px;
+	color: #fff;
+}
+
+nav li {
+	margin: 20px 15px 10px;
+	vertical-align: top;
+	text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+.content {
+	width: 960px;
+	margin: 0 auto;
+	background: url('../images/content_bg.png') -73px 0px;
+	padding: 0 30px;
+}
+
+.logos {
+	height: 100px;
+}
+
+.logos li {
+	margin-top: 25px;
+}
+
+.logo-left img{
+	margin-right: 10px;
+}
+
+.logo-left span {
+	position: relative;
+	top: -35px;
+	font-style: italic;
+	font-size: 22px;
+	font-family: Times New Roman;
+	color: #999;
+}
+
+.logo-right img {
+	margin-top: 10px;
+}
+
+.logo-right {
+	float: right;
+	color: #003355;
+	width: 300px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.logo-right img {
+	display: block;
+	margin: 10px 0 0 auto;
+}
+
+.logo-right span {
+	display: inline-block;
+	font-size: 11px;
+	margin-right: 2px;
+	margin-top: 30px;
+}
+
+.logo-right span.pipe {
+	border-right: 2px solid #84152d;
+	padding: 5px;
+	margin-right: 12px;
+}
+
+.top-menu {
+	position: absolute;
+	width: 600px;
+	right: 230px;
+}
+
+.page-name {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 2px;
+	color: #999;
+}
+
+article .headline-2 {
+	width: 49%;
+	margin-left: 20px;
+	margin-top: 0;
+	margin-bottom: 50px;
+	color: #fff;
+	font-weight: normal;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	padding-top: 50px;
+	font-size: 26px;
+}
+
+article .headline-2 span {
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+.promo {
+	font-size: 10px;
+	margin-top: 0px;
+	margin-left: -20px;
+	margin-right: -20px;
+	background: url('../images/promo_bg.png') -14px 0px;
+	padding-bottom: 0px;
+}
+
+.promo .headline-3 {
+	color: #999;
+	margin-top: 0px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.promo a {
+	color: blue;
+}
+
+.promo-left, .promo-center, .promo-right {
+	vertical-align: text-top;
+	min-height: 235px
+}
+
+.promo-center, .promo-right {
+	border-left: 2px solid #192733;
+	padding-left: 10px
+}
+
+.promo-left ul, .promo-right ul {
+	margin-bottom: 10px;
+}
+
+.promo-left {
+	background: url('../images/promo_section_bg.png') 125px 0px;
+}
+
+.promo-left ul {
+	list-style: initial;
+	margin-left: 15px;
+}
+
+.promo-center {
+	background: url('../images/promo_section_bg.png') -16px 0px;
+	margin: 20px 40px 0 0;
+}
+
+.promo-center .text {
+	margin-bottom: 10px;
+}
+
+.promo-center h3 {
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+.promo-left {
+	width: 325px;
+	margin: 20px 40px 0px;
+}
+
+.promo-center {
+	width: 225px;
+	margin-right: 30px;
+}
+
+.promo-right {
+	width: 200px;
+	margin: 20px 0 0 30px;
+}
+
+.promo-right ul li span {
+	color: #990020;
+}
+
+.promo-left-section {
+	width: 150px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 0 10px 10px;
+}
+
+.shadow {
+	text-shadow: 0.1em 0.1em 0.5em white;
+}
+
+footer {
+	margin-left: 40px;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 20px;
+}

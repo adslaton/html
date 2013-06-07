@@ -1,0 +1,37 @@
+@import url("../../css/common.css");
+@import url("index.css");
+
+.security_image_promo {
+	font-size: 10px;
+	margin-top: 25px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.aviation article {
+	min-height: 550px;
+}
+
+.description {
+	width: 460px;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.description ul li,
+p.highlight {
+	font-size: 12px;
+}
+
+p.highlight {
+	margin: 0;
+}
+
+p.highlight a {
+	font-style: normal;
+	text-decoration: underline;
+}
+
+ul.secondary {
+	margin-left: 20px;
+}

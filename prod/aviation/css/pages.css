@@ -1,0 +1,74 @@
+@import url("http://www.dalgs.com/css/common.css");
+@import url("index.css");
+
+body {
+	background-color: #192733;
+}
+
+section {
+ 	background: url('../images/aviation_bg.png');
+}
+
+article {
+	margin-left: 10px;
+	height: 570px;
+	background: none;
+}
+
+article h2 {
+	color: #192733;
+	text-shadow: none;
+	margin-left: 0px;
+}
+
+.description, .promo {
+	display: inline-block;
+}
+
+.description {
+	margin-left: 20px;
+	background-position:center bottom;
+	width: 450px;
+	margin-right: 50px;
+	vertical-align: top;
+}
+
+.description p {
+	font-size: 12px;
+	margin: 5px 0;
+}
+
+.promo img {
+	height: 550px;
+}
+
+.promo.listing {
+	margin-top: 20px;
+	background: none;
+	color: #003355;
+}
+
+.promo.listing h3 {
+	font-size: 16px;
+}
+
+.promo.listing p {
+	font-size: 12px;
+}
+
+.promo.listing a {
+	color: inherit;
+}
+
+.description ul {
+	margin-left: 20px;
+}
+
+.form-holder {
+	font-size: 12px;
+}
+
+.form-section {
+	width: 45%;
+	display: inline-block;
+}
